@@ -22,11 +22,23 @@ def getRandomFortune():
     fortunes = [
         "I see much code in your future",
         "Consider eating more fortune cookies",
-        "You have tamed the mighty Python, now you must free it onto the Great Spider's Web!"
+        "You have tamed the mighty Python, now you must free it onto the Great Spider's Web!",
+        "A closed mouth gathers no feet",
+        "A conclusion is simply the place where you got tired of thinking",
+        "A fanatic is one who can't change his mind, and won't change the subject",
+        "An alien of some sort will be appearing to you shortly",
+        "Do not mistaken temptation for opportunity",
+        "Flattery will go far tonight",
+        "He who laughs at himself never runs out of things to laugh at",
+        "He who laughs last is laughing at you",
+        "He who throws dirt is losing ground",
+        "Some men dream of fortunes, other dream of cookies",
+        "The greatest danger could be your stupidity",
+        "You will be hungry again in one hour"
     ]
 
     # randomly select one of the fortunes
-    index = random.randint(0, 2)
+    index = random.randint(0, 14)
 
     return fortunes[index]
 
